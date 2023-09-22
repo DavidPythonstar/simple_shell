@@ -6,7 +6,7 @@
  * Return: None
  */
 
-void my_prompt()
+void my_prompt(void)
 {
-        printf("Davi Shell> ");
+	printf("shs #");
 }
