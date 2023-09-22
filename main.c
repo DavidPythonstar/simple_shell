@@ -12,7 +12,7 @@ int main(void)
 
 	while (true)
 	{
-		my_prompt();
+		my_prompt("$");
 		get_cmd(command, sizeof(command));
 		ex_cmd(command);
 	}

@@ -6,7 +6,7 @@
  * Return: None
  */
 
-void my_prompt(void)
+void my_prompt(const char *message)
 {
-	printf("shs #");
+	write(1, message, strlen(message));
 }
